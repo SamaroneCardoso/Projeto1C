@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      A client is authenticated by requesting the page http://172.16.0.1:2050/nodogsplash_auth/?token=6682c1ea&redir=http%3a%2f%2funiversoretro.com.br%2fwp-content%2fuploads%2f2016%2f02%2fdiner-anos50.jpg.
+	    So, href to it here, with an img or link text the user can click on.
+	    Alternatively submit an HTTP form method=get, passing http://172.16.0.1:2050/nodogsplash_auth/, 6682c1ea and http://universoretro.com.br/wp-content/uploads/2016/02/diner-anos50.jpg
+	    Also, note that any images you reference must reside in the
+	    subdirectory that is the value of /images (default: "images").
+
+      Available variables:
+	    error_msg: 
+	    gatewayname: NoDogSplash
+	    tok: 6682c1ea
+	    redir: http://universoretro.com.br/wp-content/uploads/2016/02/diner-anos50.jpg
+	    authaction: http://172.16.0.1:2050/nodogsplash_auth/
+	    denyaction: http://172.16.0.1:2050/nodogsplash_deny/
+	    authtarget: http://172.16.0.1:2050/nodogsplash_auth/?token=6682c1ea&redir=http%3a%2f%2funiversoretro.com.br%2fwp-content%2fuploads%2f2016%2f02%2fdiner-anos50.jpg
+	    clientip: 172.16.0.46
+	    clientmac: 64:32:a8:40:46:ce
+	    gatewaymac: c2:14:5f:c1:35:dd
+	    nclients: 7
+	    maxclients: 20
+	    uptime: 7d 6h 40m 27s
+	    imagesdir: /images
+	    pagesdir: /pages
+
+	  Additional Variables that can also be passed back via HTTP get.
+	  Or just append them to the authentication link:
+	    nodoguser
+	    nodogpass
+	    info
+	    voucher
+    -->
+	
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+
+  <body>
+    <form id="login" method='get' action='http://172.16.0.1:2050/nodogsplash_auth/'>
+      <input type='hidden' name='tok' value='6682c1ea'>
+      <input type='hidden' name='redir' value='http://universoretro.com.br/wp-content/uploads/2016/02/diner-anos50.jpg'>
+    </form>
+
+    <script>
+      window.onload=function(){
+	    document.getElementById("login").submit();
+	  };
+    </script>
+  </body>
+</html>
