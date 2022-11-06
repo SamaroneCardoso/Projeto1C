@@ -1,73 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag HTML div</title>
-    <style type="text/css">
-        #cabecalho{
-            background-color: #690cf6;
-            width: auto;
-            color: white;
-            height: 120px;
-            margin: 20px auto;
-            padding-left:20px;
-            padding-top:10px;
-        }
-        .centralizado {
-            background-color: rgb(182, 240, 199);
-            border: 2px solid #999;
-            width: 300px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        #rodape{
-            background-color:#690cf6;
-            width: auto;
-            color:white;
-            height: 120px;
-            margin: 20px auto;
-            padding-left:20px;
-            padding-top: 5px;
-       }
-       .logo{
-            border-radius: 50px;
-            float: left;
-       }
-       .grupos{
-            background-color:#FFFFFF;
-            box-shadow: -4px 3px 2px 0px rgba(210, 210, 210, 1);
-            height: 120px;
-            width: 120px;
-            padding: 25px 50px 75px 100px;
-       }
-       .corpo{
-        background: #EEEEEE;
-       }
-       .conteudo{
-            float: center;
-       }
-    </style>     
-</head>
-<body class="corpo">
-    <div id="cabecalho">
-        <nav>
-            <a href="#">
-              <img src="Logo.png" width="200" height="200" alt="" class="logo">
-            </a>
-            <h1> Projeto 1º C </h1>
-          </nav>
-    </div> 
-    <div id="conteudo">
-        <div class="grupos"> <a href="https://samaronecardoso.github.io/Projeto1C/A/indexA.html">Grupo A</a> </div>
-        <div class="grupos"><a href="https://samaronecardoso.github.io/Projeto1C/B/indexC.html">Grupo B</a></div>
-        <div class="grupos"><a href="https://samaronecardoso.github.io/Projeto1C/C/indexC.html">Bolo de Gato</a></div>
-        <div class="grupos"><a href="https://samaronecardoso.github.io/Projeto1C/D/indexC.html">Grupo D</a></div>
-        <div class="grupos"><a href="https://samaronecardoso.github.io/Projeto1C/E/indexC.html">Grupo E</a></div>
-        <div class="grupos"><a href="https://samaronecardoso.github.io/Projeto1C/F/indexC.html">Grupo F</a></div>
-    </div> 
-    <div id="rodape">
-        <p>Conteúdo do rodapé.</p>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto 1C</title>
+        <style type="text/css">
+            html{
+                background: #eeeaea;
+            }
+            #cabecalho{
+                display: top;
+                background: #7b37e0;
+                padding: 10px;
+            }
+            #corpo{
+                background: #eeeaea;
+                position: relative;
+                height: auto;
+                
+            } 
+            #conteudo{ 
+                position: relative;
+            }
+            #rodape{
+                background: #7b37e0;
+                display: bottom;
+                height: 50px;
+            }
+            .logo{
+                border-radius: 100px;   
+            }
+            .container{
+                width: auto;
+                height: 200px;
+                position: relative;
+            }
+            .divImg{
+                float: left;
+            }
+            .nome{
+                color: #ffffff;
+                position: absolute;
+                top: 20%;
+                left: 40%;
+                margin: -25px 0 0 -25px;
+                font-size: xx-large;
+            }
+            .grupos{
+
+                background: #dcdce0;
+                display: flex;
+                margin: 10px 10px 10px 10px;
+                padding: 5px;
+                height: 100px;
+                width: 400px;
+                border-radius: 5px;
+                -webkit-box-shadow: -7px -7px 7px 5px rgba(28,28,28,0.27); 
+                box-shadow: -7px -7px 7px 5px rgba(28,28,28,0.27);
+                display: inline-block;
+                
+            }
+            .grupos a{
+                
+                position: relative;
+                top: 10%;
+                left: 30%;
+            }
+            .grupos img{
+                
+                position: relative;
+                top: 10%;
+                left: 30%;
+            }
+            .logos{
+
+                border-radius: 50px;   
+            }
+            .conteudoRodape{
+                position: absolute;
+                margin: 5px 5px 5px 5px;
+                text-align: center;
+                padding: 50px;
+            }
+
+
+            footer {
+                background: #7b37e0;
+                position: bottom;
+                bottom: 0px;
+                width: 100%;
+                padding: 10px;
+            }
+            .logotipo {
+                text-align: center;
+                
+            }
+            .logotipo img {
+                width: 50px;
+                vertical-align: middle;
+                border-radius: 50px;   
+            }
+            .redes {
+                width: 100%;
+                text-align: center;
+            }
+            .redes img {
+                width: 50px;
+            }
+            .redes ul li {
+                text-transform: uppercase;
+                list-style-type: none;
+                display: inline;
+            }
+
+        </style>   
+    </head>
+    <header id="cabecalho">
+        <div class="container">
+            <div class="divImg">
+                <img src="Logo.png" width="200" height="200" alt="" class="logo">
+            </div>
+            <div class="nome">
+                <h1> Projeto 1º C </h1>
+            </div>
+        </div>
+    </header>
+    <body id="corpo">
+        <div id="conteudo">
+            <div class="grupos"> 
+                <img src="Logo.png" width="50" height="50" alt="" class="logos"><br>
+                <a href="https://samaronecardoso.github.io/Projeto1C/A/indexA.html">Grupo A</a> 
+            </div>
+            <div class="grupos">
+                <img src="Logo.png" width="50" height="50" alt="" class="logos"><br>
+                <a href="https://samaronecardoso.github.io/Projeto1C/B/indexB.html">Grupo B</a>
+            </div>
+            <div class="grupos">
+                <img src="Logo.png" width="50" height="50" alt="" class="logos">
+                <a href="https://raw.githubusercontent.com/SamaroneCardoso/Projeto1C/main/C/projeto%20(2).png">Bolo de Gato</a>
+            </div>
+            <div class="grupos">
+                <img src="Logo.png" width="50" height="50" alt="" class="logos">
+                <a href="https://samaronecardoso.github.io/Projeto1C/D/indexC.html">Grupo D</a>
+            </div>
+            <div class="grupos">
+                <img src="Logo.png" width="50" height="50" alt="" class="logos">
+                <a href="https://samaronecardoso.github.io/Projeto1C/E/indexC.html">Grupo E</a>
+            </div>
+            <div class="grupos">
+                <img src="Logo.png" width="50" height="50" alt="" class="logos">
+                <a href="https://samaronecardoso.github.io/Projeto1C/F/indexC.html">Grupo F</a>
+            </div>
+        </div> 
+    </body>
+    <footer>
+        <nav class="redes">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Nosso Facebook"></a></li>
+                <li><a href="https://plus.google.com" target="_blank"><img src="google.png" alt="Nosso Google plus"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="youtube.png" alt="Canal no YouTube"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="Perfil no Instagram"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="twitter.png" alt="Perfil no Twitter"></a></li>
+           </ul>
+        </nav>
+    </footer>
 </html>
