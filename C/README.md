@@ -1,6 +1,6 @@
 # Projeto bolo de gato
 
-Este é o [projeto do 1C](https://samaronecardoso.github.io/Projeto1C/C/site/index.html)
+Clique [aqui](https://samaronecardoso.github.io/Projeto1C/C/site/index.html) para acessar o projeto 1C.
 
 # Integrantes
 
