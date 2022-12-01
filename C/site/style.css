@@ -4,7 +4,7 @@
 	width: 261.31px;
 	height: 237.91px;
 	left: 29.91px;
-	top: 13px;
+	top: 27px;
 
 }
 
@@ -185,10 +185,12 @@
 }
 
 .linha{
-	width: 100%;
-	height: 0px;
-	top:20 px;
-	border: 90px solid #DEB887;
+		bottom: 6000;
+		left: 0;
+		height: 190px;
+		position: fixed;
+		width: 100%;
+		background-color: #f5dec3;
 	
 	}
 	
@@ -207,7 +209,7 @@
 	}
 
 	.rodape{
-		background-color: #DEB887;
+		background-color: #f5dec3;
 		color: black;
 		bottom: 0;
 		left: 0;
