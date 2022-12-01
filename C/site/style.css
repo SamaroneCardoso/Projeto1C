@@ -119,7 +119,7 @@
 	position: absolute;
 	left: 65%;
 	right: 26%;
-	top: 30%;
+	top: 25%;
 	bottom:60%;
 	border-radius: 50px;
 	box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
@@ -130,16 +130,15 @@
 
 .pergunta{
 	position: absolute;
-	width: 300px;
+	width: 700px;
 	height: 90px;
-	left: 680px;
+	left: 370px;
 	top: 500px;
 	font-family: 'Righteous';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 30px;
-	text-align: center;
 }
 
 .rsp1{
@@ -153,7 +152,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 29px;
-	text-align: center;
+
 }
 
 .rsp2{
@@ -167,7 +166,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 29px;
-	text-align: center;
+
 
 }
 
@@ -182,7 +181,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 29px;
-	text-align: center;
+
 }
 
 .linha{
@@ -193,9 +192,6 @@
 	
 	}
 	
-
-
-
 	.contatos{
 		position: absolute;
 		width: 1013px;
@@ -207,6 +203,22 @@
 		font-size: 30px;
 		line-height: 29px;
 		text-align: left;
+
+	}
+
+	.rodape{
+		background-color: #DEB887;
+		color: black;
+		bottom: 0;
+		left: 0;
+		height: 40px;
+		position: fixed;
+		width: 100%;
+		font-size: 23px;
+		padding-bottom: 35px;
+		text-align: center;
+
+		
 
 	}
 
