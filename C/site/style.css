@@ -91,7 +91,7 @@
 	width: 308px;
 	height: 80px;
 	left: 368px;
-	top: -30px;
+	top: -40px;
 	font-family: 'Righteous';
 	font-style: normal;
 	font-weight: 1000;
@@ -102,10 +102,10 @@
 
 .subtitulo{
 	position: absolute;
-	width: 700px;
+	width: 800px;
 	height: 46px;
-	left: 200px;
-	top: 300px;
+	left: 100px;
+	top: 200px;
 	font-family: 'Sarala';
 	font-style: normal;
 	font-weight: 400;
@@ -114,22 +114,12 @@
 
 }
 
-.botao{
-	position: absolute;
-	width: 185px;
-	height: 67px;
-	left: 400px;
-	top: 420px;
-	background: #DEB887;
-	border-radius: 20px;
-
-}
 
 .img1{
 	position: absolute;
-	left: 70%;
+	left: 65%;
 	right: 26%;
-	top: 20%;
+	top: 30%;
 	bottom:60%;
 	border-radius: 50px;
 	box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
@@ -140,10 +130,10 @@
 
 .pergunta{
 	position: absolute;
-	width: 271px;
-	height: 44px;
-	left: 720px;
-	top: 600px;
+	width: 300px;
+	height: 90px;
+	left: 680px;
+	top: 500px;
 	font-family: 'Righteous';
 	font-style: normal;
 	font-weight: 400;
@@ -156,8 +146,8 @@
 	position: absolute;
 	width: 1146px;
 	height: 73px;
-	left: 280px;
-	top: 715px;
+	left: 210px;
+	top: 600px;
 	font-family: 'Sarala';
 	font-style: normal;
 	font-weight: 400;
@@ -170,8 +160,8 @@
 	position: absolute;
 	width: 1195px;
 	height: 65px;
-	left: 320px;
-	top: 750px;
+	left: 270px;
+	top: 650px;
 	font-family: 'Sarala';
 	font-style: normal;
 	font-weight: 400;
@@ -185,8 +175,8 @@
 	position: absolute;
 	width: 1013px;
 	height: 75px;
-	left: 330px;
-	top: 785px;
+	left: 320px;
+	top: 700px;
 	font-family: 'Sarala';
 	font-style: normal;
 	font-weight: 400;
